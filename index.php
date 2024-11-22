@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA ToDoリスト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ToDoリスト</h1>
+    <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="やることを入力" required>
+        <button type="submit">追加</button>
+    </form>
+    <ul id="todo-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
